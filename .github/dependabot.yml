@@ -14,3 +14,12 @@ updates:
   #labels:
   #  - "automerge"
   open-pull-requests-limit: 6
+
+- package-ecosystem: npm
+  directory: "/docs"
+  schedule:
+    interval: daily
+    time: "01:00"
+  #labels:
+  #  - "automerge"
+  open-pull-requests-limit: 6
